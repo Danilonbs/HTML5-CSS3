@@ -15,12 +15,19 @@ body {
    
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     color: white;
     background-color: black;
     min-height: 150px;
-    
-    
 
 }
 
@@ -35,8 +42,6 @@ header {
     font-family: 'Special Elite';
     
 }
-
-
 
 
 article {
@@ -57,13 +62,10 @@ article > p {
 div.bk1 {
     width: 100%;
     background-image: url(imagens/ch.jpg);
-   position: absolute;
     background-position: center center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed; 
-
-    
 
 }
 
@@ -83,8 +85,27 @@ p.bk{
     padding: 30px;
     line-height: 2.5em;
     font-size: clamp(1em, 3vw, 2.5em);
-    
-    
-    
 
+}
+
+div.a2 {
+    padding: 30px;
+}
+
+div.bk2 {
+    width: 100%;
+    background-image: url(imagens/ch2.jpg);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed; 
+
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
 }
