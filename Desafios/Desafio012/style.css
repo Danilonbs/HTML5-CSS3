@@ -10,6 +10,11 @@
     
 }
 
+body {
+    min-height: 100vh;
+    background-color: darkgray;
+
+}
 
 a {
     text-decoration: none;
