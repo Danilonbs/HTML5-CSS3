@@ -85,6 +85,8 @@ p.bk{
     padding: 30px;
     line-height: 2.5em;
     font-size: clamp(1em, 3vw, 2.5em);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
 
 }
 
