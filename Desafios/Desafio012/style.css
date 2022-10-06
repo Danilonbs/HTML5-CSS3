@@ -76,7 +76,7 @@ div#bk1 {
 p.bk{
     border-radius: 20px;
     margin: 30px;
-    width: 38%;
+    max-width: 500px;
     background-color: rgba(0, 0, 0, 0.288);
     color: white;
     position: relative;
