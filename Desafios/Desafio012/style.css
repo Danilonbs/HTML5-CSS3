@@ -60,7 +60,7 @@ article > p {
 
 div#bk1 {
     
-    width: 500x;
+    width: 100%;
     background-image: url(imagens/ch.jpg);
     background-position: center center;
     background-repeat: repeat-y;
@@ -76,7 +76,7 @@ div#bk1 {
 p.bk{
     border-radius: 20px;
     margin: 30px;
-    width: 500px;
+    width: 38%;
     background-color: rgba(0, 0, 0, 0.288);
     color: white;
     position: relative;
