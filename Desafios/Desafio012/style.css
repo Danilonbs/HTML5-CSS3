@@ -64,19 +64,21 @@ article > p {
 }
 
 div.bk1 {
+    
     width: 100%;
     background-image: url(imagens/ch.jpg);
     background-position: center center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed; 
+    
 
 }
 
 
 
 p.bk{
-    
+    background-size: 20%;
     color: white;
     position: relative;
     font-family: 'Kalam'; 
