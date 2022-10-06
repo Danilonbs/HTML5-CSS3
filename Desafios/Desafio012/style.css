@@ -63,32 +63,33 @@ article > p {
     
 }
 
-div.bk1 {
+div#bk1 {
     
-    width: 100%;
+    width: 500x;
     background-image: url(imagens/ch.jpg);
     background-position: center center;
     background-repeat: repeat-y;
     background-size: cover;
     background-attachment: fixed; 
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
 
 }
 
 
 
 p.bk{
-    background-size: 20%;
+    border-radius: 20px;
+    margin: 30px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.288);
     color: white;
     position: relative;
-    font-family: 'Kalam'; 
-    font-weight: bold;
-    text-align: left;
-    padding: 30px;
-    line-height: 2.5em;
-    font-size: clamp(1em, 3vw, 2.5em);
+    font-family: 'Kalam';
+    padding: 10px;
 
 }
+
 
 div.a2 {
     padding: 30px;
