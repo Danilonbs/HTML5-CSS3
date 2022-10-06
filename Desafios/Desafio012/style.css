@@ -10,11 +10,6 @@
     
 }
 
-body {
-    min-height: 100vh;
-    background-color: darkgray;
-
-}
 
 a {
     text-decoration: none;
@@ -95,7 +90,7 @@ div.a2 {
     padding: 30px;
 }
 
-div.bk2 {
+div#bk2 {
     width: 100%;
     background-image: url(imagens/ch2.jpg);
     background-position: center center;
