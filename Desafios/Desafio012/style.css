@@ -75,13 +75,13 @@ div#bk1 {
 
 p.bk{
     border-radius: 20px;
-    margin: 30px;
-    max-width: 500px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.288);
     color: white;
     position: relative;
     font-family: 'Kalam';
-    padding: 10px;
+    padding: 20px;
+    margin-left: 20px;
 
 }
 
