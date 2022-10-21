@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.pho" method="get" autocomplete="on">
+
+        <p>
+            <label for="iano">Em que ano você nasceu</label>
+            <input type="number" name="ano" id="iano" min="1500" max="2000" value="2000" oninput="calcIdade()">
+        </p>
+        <label for="idade">Sua idade é:</label>
+        <outputid id="idade"> 0</output>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    <script>
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(iano.value)
+        }
+    </script>
+</body>
+</html>

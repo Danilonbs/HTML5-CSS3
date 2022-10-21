@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Exemplo de Formulario</h1>
-    <form action="" method="get" autocomplete="on">
+    <form action="" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
@@ -27,13 +27,18 @@
             </select>
         </p>
             <label for="iprof">Profissão:</label>
-            <input type="text" name="prof" id="iprof">
+            <input type="text" name="prof" id="iprof" list="istprof">
             
-            <datalist>
+            <datalist id="istprof">
                 <option value="ADM">Administrador</option>
                 <option value="cont">contabilista</option>
                 <option value="dev">desenvolvedor</option>
             </datalist>
+
+            <p>
+                <label for="imsg">Mensagem:</label>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+            </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
